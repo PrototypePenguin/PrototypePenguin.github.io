@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="Assignment9Main.css">
+	<script type="text/javascript" src="js/Assignment9AboutUs.js"></script>
+	<title>Winnipeg Jets Home</title>
+</head>
+<body>
+	<nav>
+		<img src="images/header.png" alt="Winnipeg Jets During 2016 Winter Classic">
+		<ul>
+			<li><a href="Assignment9Home.html">Home</a></li>
+			<li><a href="Assignment9Stats.html">Stats</a></li>
+			<li><a href="#">About Us</a></li>
+		</ul>
+	</nav>
+	<section>
+		<h1>About Us</h1>
+		<hr>
+		<div class="rightFloat">
+			<img src="images/roblinCenter.jpg"><br>Red River College home of the BIT program.
+		</div>
+		<p>
+			This website was created to accomplish a Web Dev Assignment for the BIT program at Red River College. It portrays the stats of players of the Winnipeg Jets.
+		</p>
+		<hr>
+		<h1>Contact Us</h1>
+		<form name="form" onsubmit="return(validateForm());">
+			<fieldset>
+				<legend>Contact Info</legend>
+
+				Name:
+				<input type="text" name="name" id="contactText">
+
+
+				Email:
+				<input type="email" name="email" id="contactEmail">
+
+
+				<br>Reason:<br>
+				<input type="radio" name="reason" value="praise" id="contactPraise" checked>
+				<label for="praise">Praise</label><br>
+				<input type="radio" name="reason" value="mark" id="contactMark">
+				<label for="mark">Give 100&#37;</label><br>
+				<input type="radio" name="reason" value="suggestion" id="contactSuggestion">
+				<label for="suggestion">Suggest a better NHL team</label><br>
+
+
+				Message:<br>
+				<textarea name="message" rows="5" cols="20" placeholder="Write a nice message!" id="contactMessage"></textarea><br>
+
+				
+				<button type="button" onclick="validateForm()" id="submit">Submit</button>
+
+				<input type="reset" value="Reset">
+			</fieldset>
+		</form>
+		<hr class="bottom">
+	</section>
+	<footer>
+		<p>
+			Winnipeg Jets Stats is designed to provide stats for player stats for the Winnipeg Jets' 2017&#45;18 season. By: Charles Burns
+		</p>
+	</footer>
+</body>
+</html>

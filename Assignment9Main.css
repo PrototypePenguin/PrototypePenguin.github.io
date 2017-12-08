@@ -1,0 +1,113 @@
+body{
+	margin: 0px auto;
+	background-image: url("images/background.png");
+	background-attachment: fixed;
+	font-family: 'Consolas', sans-serif;
+}
+nav{
+	background-color: #031f44;
+	text-align: center;
+}
+nav img{
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+ul{
+	margin: 0px auto;
+	padding-bottom: 20px;
+}
+li{
+	display: inline;
+	background-color: #aa1a30;
+}
+a{
+	color: black;
+	font-size: 30px;
+	background-color: white;
+	border-radius: 8px;
+	display: inline-block;
+	padding: 5px 200px 5px 20px;
+}
+a:hover{
+	background-color: #aa1a30;
+	color: white;
+}
+a:focus{
+	background-color: #aa1a30;
+	color: white;
+}
+section{
+	margin: 0px auto;
+	width: 1024px;
+	background-color: white;
+	border: 1px solid #031f44;
+}
+section h1{
+	margin: 0px auto;
+	color: #aa1a30;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-bottom: 10px;
+	font-size: 60px;
+	text-shadow: 2px 2px #031f44;
+}
+section hr{
+	width: 915px;
+	margin-bottom: 40px;
+}
+section p{
+	padding: 25px 50px;
+	font-size: 25px;
+}
+table{
+	margin: 10px 50px 15px 50px;
+}
+table th{
+	color: white;
+	background-color: black;
+}
+table td{
+	padding: 3px;
+	text-align: center;
+	width: 50px;
+}
+table td:first-child{
+	background-color: #f2f2f2;
+	width: 400px;
+	text-align: left;
+}
+fieldset{
+	margin: 0px 50px auto;
+	width: 550px;
+}
+footer{
+	padding: 15px 20px;
+	background-color: #031f44;
+	color: white;
+	text-align: right;
+}
+.rightFloat{
+	float: right;
+	width: 450px;
+	margin: 10px 10px 15px 5px;
+	padding: 15px;
+	text-align: center;
+}
+.rightFloat img{
+	width: 450px;
+}
+.leftFloat{
+	float: left;
+	width: 450px;
+	margin: 10px 10px 10px 10px;
+	padding: 15px;
+	text-align: center;
+}
+.leftFloat img{
+	width: 450px;
+}
+.error{
+	padding: 5px;
+	font-size: 11px;
+	color: red;
+}
